@@ -1,0 +1,2 @@
+alias nrh_auto_commit="git add .; git pull; git commit -am 'automated commit'; git push;"
+alias nrh_update_config="cd ~/Homebrew; nrh_auto_commit; cd -; cd ~/Vim; nrh_auto_commit; cd -; cd ~/Zsh; nrh_auto_commit; cd -;"
