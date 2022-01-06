@@ -1,2 +1,2 @@
-alias my_auto_commit="git add .; git pull; git commit -am 'automated commit'; git push;"
-alias myup="cd ~/Homebrew; my_auto_commit; cd -; cd ~/Vim; my_auto_commit; cd -; cd ~/Zsh; my_auto_commit; cd -;"
+alias my_commit="git add .; git pull; git commit -am 'automated commit'; git push;"
+alias myup="cd ~/Homebrew; brew bundle dump -f; my_commit; cd -; cd ~/Vim; my_commit; cd -; cd ~/Zsh; my_commit; cd -;"
