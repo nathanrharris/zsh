@@ -1,2 +1,9 @@
 alias my_commit="git add .; git pull; git commit -am 'automated commit'; git push;"
 alias myup="cd ~/Homebrew; brew bundle dump -f; my_commit; cd -; cd ~/Vim; my_commit; cd -; cd ~/Zsh; my_commit; cd -;"
+
+alias e="cd /Users/nathanharris/Projects/nasa/httpdocs/webroot/sites/all/ember/app;"
+alias n="cd /Users/nathanharris/Projects/nasa/httpdocs;"
+
+alias nrh="cd /Users/nathanharris/Projects/nrh/httpdocs;"
+
+alias rsync_media="rsync -avh --progress --inplace --delete --exclude '*.part' /Volumes/Media\ \(8TB\)/* /Volumes/Media\ \(8TB\)\ Backup/"
